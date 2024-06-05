@@ -1,6 +1,6 @@
 import React from "react";
 
-//import "../../components/LoginSignUp/LoginSignUp.scss";
+import "../../components/LoginSignUp/LoginSignUp.scss";
 import { FaLock, FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -22,7 +22,7 @@ const LoginSignUp = () => {
                 <a href="#"> Forgot Password </a>
             </div>
 
-            <Link to="/"> <button type="submit" className="btn"> Login </button> </Link>
+            <Link to="/dashboard"> <button type="submit" className="btn"> Login </button> </Link>
 
             <div className="register-link">
                 <p>Don't have an account? <a href="#">
